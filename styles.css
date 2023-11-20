@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(114, 114, 255);
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+.joke_card {
+    background-color: rgb(241, 241, 241);
+    border: 4px solid black;
+    font-size: 18px;
+    border-radius: 12px;
+    margin-top: -73px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 36px 36px 36px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,.5);
+    width: 350px;
+    min-height: 150px;
+    gap: 12px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 42px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
